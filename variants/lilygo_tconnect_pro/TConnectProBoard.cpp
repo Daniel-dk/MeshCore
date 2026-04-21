@@ -7,10 +7,6 @@ void TConnectProBoard::begin() {
   
   ESP32Board::begin();
   
-  // Enable peripheral power
-  //pinMode(PIN_PERF_POWERON, OUTPUT);
-  //digitalWrite(PIN_PERF_POWERON, HIGH);
-
   // Configure user button
   pinMode(PIN_USER_BTN, INPUT);
 

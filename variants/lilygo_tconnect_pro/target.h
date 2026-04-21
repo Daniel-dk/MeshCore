@@ -12,7 +12,6 @@
   #include <helpers/ui/MomentaryButton.h>
 #endif
 #include "helpers/sensors/EnvironmentSensorManager.h"
-//#include "helpers/sensors/MicroNMEALocationProvider.h"
 
 extern TConnectProBoard board;
 extern WRAPPER_CLASS radio_driver;

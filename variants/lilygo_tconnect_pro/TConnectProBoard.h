@@ -43,11 +43,6 @@ public:
     esp_deep_sleep_start(); // CPU halts here and never returns!
   }
 
-  // uint16_t getBattMilliVolts() {
-  //   //  T-Connect has no battery, so always assume battery is full
-  //     return 4200;
-  // }
-
   const char* getManufacturerName() const{
     return "LilyGo T-Connect-Pro";
   }
